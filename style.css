@@ -1,9 +1,41 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+.bio {
+  margin-left: 5%;
+  width: 40%;
+  float: left;
+  
+}
+
+.bio img {
+    width: 100%;
+}
+
 h1{
     font-size: 30px;
+    font-weight: 500;
 }
 .logo {
+    
+     padding-top: 100px;
     color: orange;
+    font-family: "Roboto", sans-serif;
+    
 }
+
+.intro {
+    font-weight: 400;
+    color: coral;
+}
+
+.intro:hover {
+    font-family: "Poppins", sans-serif;
+    color: orange;
+    font-size: medium;
+}
+
+.paragraph {
+  text-align: justify;
+}
+
