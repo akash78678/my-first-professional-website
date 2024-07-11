@@ -39,3 +39,11 @@ h1{
   text-align: justify;
 }
 
+.top-banner {
+    background-image: url("images/top-banner.png");
+     background-repeat: no-repeat;
+}
+
+section {
+    height: 100px;
+}
