@@ -43,7 +43,21 @@ h1{
     background-image: url("images/top-banner.png");
      background-repeat: no-repeat;
 }
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(yellow, orange);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.button:hover {
+    background-color: rgb(215, 236, 255);
+    color: orange;
+}
 
 section {
-    height: 100px;
+    height: 500px;
 }
