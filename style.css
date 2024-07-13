@@ -1,11 +1,12 @@
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 .bio {
   margin-left: 5%;
   width: 40%;
   float: left;
-  
+  padding-bottom: 10%;
 }
 
 .bio img {
@@ -45,7 +46,7 @@ h1{
 }
 .button {
     text-decoration: none;
-    background-image: linear-gradient(yellow, orange);
+    background-image: linear-gradient(purple,pink);
     padding: 10px 20px;
     border-radius: 10px;
     color: aliceblue;
@@ -60,4 +61,41 @@ h1{
 
 section {
     height: 500px;
+}
+.header2{
+    padding-left: 3%;
+    padding-top: 10%;
+}
+
+.header3 {
+    padding-left: 3%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: orange;
+}
+.paragraph2 {
+    text-align: justify;
+    color: dimgray;
+    padding-bottom: 10px;
+}
+
+.button1 {
+    text-decoration: none;
+    background-image: linear-gradient(blue,white);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+.button1:hover {
+    color: blueviolet;
+}
+
+.dream-area {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
