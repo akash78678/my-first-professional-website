@@ -6,11 +6,12 @@ body {
   margin-left: 5%;
   width: 40%;
   float: left;
-  padding-bottom: 10%;
+  margin-bottom: 2pxexperiences;
 }
 
 .bio img {
     width: 100%;
+
 }
 
 h1{
@@ -19,7 +20,6 @@ h1{
 }
 .logo {
     
-     padding-top: 100px;
     color: orange;
     font-family: "Roboto", sans-serif;
     
@@ -98,4 +98,22 @@ section {
     background-repeat: no-repeat;
     background-position: right;
     
+}
+
+
+.experiences {
+    margin-top: 5%;
+}
+
+.main {
+    margin-left: 5%;
+}
+
+.experience {
+    box-shadow: 10px 10px 40px gray;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 5%;
+    text-align: justif;
+    height: 60%;
 }
